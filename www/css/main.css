@@ -1,0 +1,118 @@
+/*defaults*/
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'RobotoBold', Helvetica, "Helvetica Neue", Arial, sans-serif;
+	margin: 1.414em 0 0.5em;
+	margin-top: 0;
+	font-weight: inherit;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 3.998em;
+}
+
+h2 {
+	font-size: 2.827em;
+}
+
+h3 {
+	font-size: 1.999em;
+}
+
+p,
+ul,
+ol,
+li {
+	font-family: 'RobotoLight', "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/*containers*/
+body {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	background-color: #bdc3c7;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: #E63B34;
+	color: #fff;
+}
+
+header #back-button {
+	display: none;
+	position: absolute;
+	left: 0;
+	width: 20%;
+	max-width: 150px;
+	height: 38px;
+	margin-top: 16px;
+	margin-left: 16px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+header h3 {
+	padding-top: 20px;
+	font-size: 1.6em;
+}
+
+#map {
+	margin: 5% auto;
+	display: none;
+	width: 85%;
+	min-height: 300px;
+	border-radius: 3px;
+}
+
+#contact-name {
+	font-size: 1.214em;
+	list-style: none;
+	border-radius: 3px;
+	padding: 30px;
+	background-color: #fff;
+	margin: 20px;
+}
+
+#modal-container {
+	z-index: 3;
+	position: fixed;
+	width: 80%;
+	height: 30%;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 5%;
+	padding: 5%;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+#modal-shadow {
+	overflow: hidden;
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#modal-exit {
+	position: absolute;
+	width: 42px;
+	top: 15px;
+	right: 15px;
+}
